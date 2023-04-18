@@ -28,14 +28,6 @@
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.background-image {
-  background-image: url('images/Back.jpg'); /* Replace with the path to your image or the image URL */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
 
 
 .button,
