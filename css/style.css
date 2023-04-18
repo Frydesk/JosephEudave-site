@@ -4,10 +4,3 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  .background-image {
-    background-image: url('images/Back.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
