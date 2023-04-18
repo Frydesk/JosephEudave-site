@@ -10,6 +10,18 @@ container.addEventListener('touchstart', function(event) {
   particlesJS.emit('particles', event.touches[0].clientX, event.touches[0].clientY);
 });
 
+var container = document.getElementById('particle-container');
+
+container.addEventListener('mousemove', function(event) {
+  // Emit particles at the mouse position
+  particlesJS.emit('particles', event.clientX, event.clientY);
+});
+
+container.addEventListener('touchmove', function(event) {
+  // Emit particles at the touch position
+  particlesJS.emit('particles', event.touches[0].clientX, event.touches[0].clientY);
+});
+
 particlesJS('particle-container', {
   "particles": {
     "number": {
