@@ -29,6 +29,18 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+body {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: src('path/to/your/Back.jpg'); /* Replace with the path to your image or the image URL */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .button,
 button {
   display: inline-block;
