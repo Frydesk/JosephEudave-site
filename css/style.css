@@ -8,6 +8,6 @@ body {
     min-height: 100vh;
     
   }
-.margins {
-    margin-top: 0;
+  h1 {
+    line-height: 1;
   }
