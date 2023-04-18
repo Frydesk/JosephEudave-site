@@ -28,17 +28,14 @@
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-body {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-image: url('images/Back.jpg'); !important; /* Replace with the path to your image or the image URL */
+.background-image {
+  background-image: url('images/Back.jpg'); /* Replace with the path to your image or the image URL */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 
 .button,
@@ -87,6 +84,11 @@ button:hover,
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Default (this is great for your own brand color!) */
+
+<body class="background-image">
+  <!-- Your page content goes here -->
+</body>
+
 .button.button-default {
   color: #ffffff;
   background-color: #0085ff;
