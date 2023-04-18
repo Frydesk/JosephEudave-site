@@ -1,3 +1,15 @@
+var container = document.getElementById('particle-container');
+
+container.addEventListener('click', function(event) {
+  // Emit particles at the click/touch position
+  particlesJS.emit('particles', event.clientX, event.clientY);
+});
+
+container.addEventListener('touchstart', function(event) {
+  // Emit particles at the click/touch position
+  particlesJS.emit('particles', event.touches[0].clientX, event.touches[0].clientY);
+});
+
 particlesJS('particle-container', {
   "particles": {
     "number": {
@@ -102,3 +114,4 @@ particlesJS('particle-container', {
   },
   "retina_detect": true
 });
+
